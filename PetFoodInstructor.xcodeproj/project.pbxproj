@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7CE09B5C2AC16F4700EB40BB /* PetFoodInstructorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE09B5B2AC16F4700EB40BB /* PetFoodInstructorApp.swift */; };
+		7CE09B5E2AC16F4700EB40BB /* HomeGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE09B5D2AC16F4700EB40BB /* HomeGridView.swift */; };
+		7CE09B602AC16F4800EB40BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE09B5F2AC16F4800EB40BB /* Assets.xcassets */; };
+		7CE09B632AC16F4800EB40BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE09B622AC16F4800EB40BB /* Preview Assets.xcassets */; };
+		7CE09B6A2AC16FE800EB40BB /* HomeTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE09B692AC16FE800EB40BB /* HomeTitleView.swift */; };
+		7CE09B6C2AC16FFA00EB40BB /* HomeGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE09B6B2AC16FFA00EB40BB /* HomeGridViewModel.swift */; };
+		7CE09B6E2AC1702000EB40BB /* PetFoodInstructorData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE09B6D2AC1702000EB40BB /* PetFoodInstructorData.swift */; };
+		7CE09B702AC173D500EB40BB /* BrandDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE09B6F2AC173D500EB40BB /* BrandDetailView.swift */; };
+		7CE09B742AC174B300EB40BB /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE09B732AC174B300EB40BB /* SafariView.swift */; };
+		7CE09B762AC1753200EB40BB /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE09B752AC1753200EB40BB /* AFButton.swift */; };
+		7CE09B782AC1763E00EB40BB /* DismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE09B772AC1763E00EB40BB /* DismissButton.swift */; };
+		7CE09B7A2AC1855200EB40BB /* BackgroundColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE09B792AC1855200EB40BB /* BackgroundColors.swift */; };
+		7CE09B7E2AC1904B00EB40BB /* Montserrat-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CE09B7D2AC1904B00EB40BB /* Montserrat-Italic-VariableFont_wght.ttf */; };
+		7CE09B802AC1905400EB40BB /* Montserrat-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CE09B7F2AC1905400EB40BB /* Montserrat-VariableFont_wght.ttf */; };
+		7CE09B932AC1906800EB40BB /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CE09B812AC1906700EB40BB /* Montserrat-BoldItalic.ttf */; };
+		7CE09B942AC1906800EB40BB /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CE09B822AC1906700EB40BB /* Montserrat-Medium.ttf */; };
+		7CE09B952AC1906800EB40BB /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CE09B832AC1906700EB40BB /* Montserrat-ExtraLightItalic.ttf */; };
+		7CE09B962AC1906800EB40BB /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CE09B842AC1906700EB40BB /* Montserrat-SemiBoldItalic.ttf */; };
+		7CE09B972AC1906800EB40BB /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CE09B852AC1906700EB40BB /* Montserrat-Regular.ttf */; };
+		7CE09B982AC1906800EB40BB /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CE09B862AC1906700EB40BB /* Montserrat-ThinItalic.ttf */; };
+		7CE09B992AC1906800EB40BB /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CE09B872AC1906700EB40BB /* Montserrat-ExtraBoldItalic.ttf */; };
+		7CE09B9A2AC1906800EB40BB /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CE09B882AC1906700EB40BB /* Montserrat-Thin.ttf */; };
+		7CE09B9B2AC1906800EB40BB /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CE09B892AC1906700EB40BB /* Montserrat-MediumItalic.ttf */; };
+		7CE09B9C2AC1906800EB40BB /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CE09B8A2AC1906700EB40BB /* Montserrat-Italic.ttf */; };
+		7CE09B9D2AC1906800EB40BB /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CE09B8B2AC1906700EB40BB /* Montserrat-ExtraBold.ttf */; };
+		7CE09B9E2AC1906800EB40BB /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CE09B8C2AC1906700EB40BB /* Montserrat-Black.ttf */; };
+		7CE09B9F2AC1906800EB40BB /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CE09B8D2AC1906700EB40BB /* Montserrat-BlackItalic.ttf */; };
+		7CE09BA02AC1906800EB40BB /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CE09B8E2AC1906700EB40BB /* Montserrat-LightItalic.ttf */; };
+		7CE09BA12AC1906800EB40BB /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CE09B8F2AC1906800EB40BB /* Montserrat-Bold.ttf */; };
+		7CE09BA22AC1906800EB40BB /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CE09B902AC1906800EB40BB /* Montserrat-ExtraLight.ttf */; };
+		7CE09BA32AC1906800EB40BB /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CE09B912AC1906800EB40BB /* Montserrat-SemiBold.ttf */; };
+		7CE09BA42AC1906800EB40BB /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CE09B922AC1906800EB40BB /* Montserrat-Light.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7CE09B582AC16F4700EB40BB /* PetFoodInstructor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetFoodInstructor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CE09B5B2AC16F4700EB40BB /* PetFoodInstructorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFoodInstructorApp.swift; sourceTree = "<group>"; };
+		7CE09B5D2AC16F4700EB40BB /* HomeGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGridView.swift; sourceTree = "<group>"; };
+		7CE09B5F2AC16F4800EB40BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CE09B622AC16F4800EB40BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7CE09B692AC16FE800EB40BB /* HomeTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTitleView.swift; sourceTree = "<group>"; };
+		7CE09B6B2AC16FFA00EB40BB /* HomeGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeGridViewModel.swift; sourceTree = "<group>"; };
+		7CE09B6D2AC1702000EB40BB /* PetFoodInstructorData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetFoodInstructorData.swift; sourceTree = "<group>"; };
+		7CE09B6F2AC173D500EB40BB /* BrandDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandDetailView.swift; sourceTree = "<group>"; };
+		7CE09B732AC174B300EB40BB /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		7CE09B752AC1753200EB40BB /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
+		7CE09B772AC1763E00EB40BB /* DismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissButton.swift; sourceTree = "<group>"; };
+		7CE09B792AC1855200EB40BB /* BackgroundColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundColors.swift; sourceTree = "<group>"; };
+		7CE09B7D2AC1904B00EB40BB /* Montserrat-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		7CE09B7F2AC1905400EB40BB /* Montserrat-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		7CE09B812AC1906700EB40BB /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		7CE09B822AC1906700EB40BB /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		7CE09B832AC1906700EB40BB /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		7CE09B842AC1906700EB40BB /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		7CE09B852AC1906700EB40BB /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		7CE09B862AC1906700EB40BB /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		7CE09B872AC1906700EB40BB /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		7CE09B882AC1906700EB40BB /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		7CE09B892AC1906700EB40BB /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		7CE09B8A2AC1906700EB40BB /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		7CE09B8B2AC1906700EB40BB /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		7CE09B8C2AC1906700EB40BB /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		7CE09B8D2AC1906700EB40BB /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		7CE09B8E2AC1906700EB40BB /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		7CE09B8F2AC1906800EB40BB /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		7CE09B902AC1906800EB40BB /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		7CE09B912AC1906800EB40BB /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		7CE09B922AC1906800EB40BB /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CE09B552AC16F4700EB40BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CE09B4F2AC16F4700EB40BB = {
+			isa = PBXGroup;
+			children = (
+				7CE09B5A2AC16F4700EB40BB /* PetFoodInstructor */,
+				7CE09B592AC16F4700EB40BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CE09B592AC16F4700EB40BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CE09B582AC16F4700EB40BB /* PetFoodInstructor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CE09B5A2AC16F4700EB40BB /* PetFoodInstructor */ = {
+			isa = PBXGroup;
+			children = (
+				7CE09B7C2AC18FDB00EB40BB /* Font */,
+				7CE09B5B2AC16F4700EB40BB /* PetFoodInstructorApp.swift */,
+				7CE09B5F2AC16F4800EB40BB /* Assets.xcassets */,
+				7CE09B612AC16F4800EB40BB /* Preview Content */,
+				7CE09B5D2AC16F4700EB40BB /* HomeGridView.swift */,
+				7CE09B6B2AC16FFA00EB40BB /* HomeGridViewModel.swift */,
+				7CE09B692AC16FE800EB40BB /* HomeTitleView.swift */,
+				7CE09B6F2AC173D500EB40BB /* BrandDetailView.swift */,
+				7CE09B6D2AC1702000EB40BB /* PetFoodInstructorData.swift */,
+				7CE09B752AC1753200EB40BB /* AFButton.swift */,
+				7CE09B772AC1763E00EB40BB /* DismissButton.swift */,
+				7CE09B732AC174B300EB40BB /* SafariView.swift */,
+				7CE09B792AC1855200EB40BB /* BackgroundColors.swift */,
+			);
+			path = PetFoodInstructor;
+			sourceTree = "<group>";
+		};
+		7CE09B612AC16F4800EB40BB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7CE09B622AC16F4800EB40BB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7CE09B7C2AC18FDB00EB40BB /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				7CE09B7D2AC1904B00EB40BB /* Montserrat-Italic-VariableFont_wght.ttf */,
+				7CE09B7F2AC1905400EB40BB /* Montserrat-VariableFont_wght.ttf */,
+				7CE09B8C2AC1906700EB40BB /* Montserrat-Black.ttf */,
+				7CE09B8D2AC1906700EB40BB /* Montserrat-BlackItalic.ttf */,
+				7CE09B8F2AC1906800EB40BB /* Montserrat-Bold.ttf */,
+				7CE09B812AC1906700EB40BB /* Montserrat-BoldItalic.ttf */,
+				7CE09B8B2AC1906700EB40BB /* Montserrat-ExtraBold.ttf */,
+				7CE09B872AC1906700EB40BB /* Montserrat-ExtraBoldItalic.ttf */,
+				7CE09B902AC1906800EB40BB /* Montserrat-ExtraLight.ttf */,
+				7CE09B832AC1906700EB40BB /* Montserrat-ExtraLightItalic.ttf */,
+				7CE09B8A2AC1906700EB40BB /* Montserrat-Italic.ttf */,
+				7CE09B922AC1906800EB40BB /* Montserrat-Light.ttf */,
+				7CE09B8E2AC1906700EB40BB /* Montserrat-LightItalic.ttf */,
+				7CE09B822AC1906700EB40BB /* Montserrat-Medium.ttf */,
+				7CE09B892AC1906700EB40BB /* Montserrat-MediumItalic.ttf */,
+				7CE09B852AC1906700EB40BB /* Montserrat-Regular.ttf */,
+				7CE09B912AC1906800EB40BB /* Montserrat-SemiBold.ttf */,
+				7CE09B842AC1906700EB40BB /* Montserrat-SemiBoldItalic.ttf */,
+				7CE09B882AC1906700EB40BB /* Montserrat-Thin.ttf */,
+				7CE09B862AC1906700EB40BB /* Montserrat-ThinItalic.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CE09B572AC16F4700EB40BB /* PetFoodInstructor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CE09B662AC16F4800EB40BB /* Build configuration list for PBXNativeTarget "PetFoodInstructor" */;
+			buildPhases = (
+				7CE09B542AC16F4700EB40BB /* Sources */,
+				7CE09B552AC16F4700EB40BB /* Frameworks */,
+				7CE09B562AC16F4700EB40BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PetFoodInstructor;
+			productName = PetFoodInstructor;
+			productReference = 7CE09B582AC16F4700EB40BB /* PetFoodInstructor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CE09B502AC16F4700EB40BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					7CE09B572AC16F4700EB40BB = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 7CE09B532AC16F4700EB40BB /* Build configuration list for PBXProject "PetFoodInstructor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CE09B4F2AC16F4700EB40BB;
+			productRefGroup = 7CE09B592AC16F4700EB40BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CE09B572AC16F4700EB40BB /* PetFoodInstructor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CE09B562AC16F4700EB40BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CE09B972AC1906800EB40BB /* Montserrat-Regular.ttf in Resources */,
+				7CE09B9B2AC1906800EB40BB /* Montserrat-MediumItalic.ttf in Resources */,
+				7CE09B802AC1905400EB40BB /* Montserrat-VariableFont_wght.ttf in Resources */,
+				7CE09BA32AC1906800EB40BB /* Montserrat-SemiBold.ttf in Resources */,
+				7CE09B9F2AC1906800EB40BB /* Montserrat-BlackItalic.ttf in Resources */,
+				7CE09B632AC16F4800EB40BB /* Preview Assets.xcassets in Resources */,
+				7CE09BA42AC1906800EB40BB /* Montserrat-Light.ttf in Resources */,
+				7CE09B962AC1906800EB40BB /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				7CE09B982AC1906800EB40BB /* Montserrat-ThinItalic.ttf in Resources */,
+				7CE09B7E2AC1904B00EB40BB /* Montserrat-Italic-VariableFont_wght.ttf in Resources */,
+				7CE09BA02AC1906800EB40BB /* Montserrat-LightItalic.ttf in Resources */,
+				7CE09BA22AC1906800EB40BB /* Montserrat-ExtraLight.ttf in Resources */,
+				7CE09B932AC1906800EB40BB /* Montserrat-BoldItalic.ttf in Resources */,
+				7CE09B942AC1906800EB40BB /* Montserrat-Medium.ttf in Resources */,
+				7CE09B9E2AC1906800EB40BB /* Montserrat-Black.ttf in Resources */,
+				7CE09B602AC16F4800EB40BB /* Assets.xcassets in Resources */,
+				7CE09BA12AC1906800EB40BB /* Montserrat-Bold.ttf in Resources */,
+				7CE09B9D2AC1906800EB40BB /* Montserrat-ExtraBold.ttf in Resources */,
+				7CE09B952AC1906800EB40BB /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				7CE09B9A2AC1906800EB40BB /* Montserrat-Thin.ttf in Resources */,
+				7CE09B992AC1906800EB40BB /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				7CE09B9C2AC1906800EB40BB /* Montserrat-Italic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CE09B542AC16F4700EB40BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CE09B5E2AC16F4700EB40BB /* HomeGridView.swift in Sources */,
+				7CE09B6C2AC16FFA00EB40BB /* HomeGridViewModel.swift in Sources */,
+				7CE09B5C2AC16F4700EB40BB /* PetFoodInstructorApp.swift in Sources */,
+				7CE09B6A2AC16FE800EB40BB /* HomeTitleView.swift in Sources */,
+				7CE09B762AC1753200EB40BB /* AFButton.swift in Sources */,
+				7CE09B6E2AC1702000EB40BB /* PetFoodInstructorData.swift in Sources */,
+				7CE09B782AC1763E00EB40BB /* DismissButton.swift in Sources */,
+				7CE09B7A2AC1855200EB40BB /* BackgroundColors.swift in Sources */,
+				7CE09B702AC173D500EB40BB /* BrandDetailView.swift in Sources */,
+				7CE09B742AC174B300EB40BB /* SafariView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7CE09B642AC16F4800EB40BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CE09B652AC16F4800EB40BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CE09B672AC16F4800EB40BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PetFoodInstructor/Preview Content\"";
+				DEVELOPMENT_TEAM = L573RS89F7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PetFoodInstructor/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.irhad.PetFoodInstructor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CE09B682AC16F4800EB40BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PetFoodInstructor/Preview Content\"";
+				DEVELOPMENT_TEAM = L573RS89F7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PetFoodInstructor/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.irhad.PetFoodInstructor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CE09B532AC16F4700EB40BB /* Build configuration list for PBXProject "PetFoodInstructor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CE09B642AC16F4800EB40BB /* Debug */,
+				7CE09B652AC16F4800EB40BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CE09B662AC16F4800EB40BB /* Build configuration list for PBXNativeTarget "PetFoodInstructor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CE09B672AC16F4800EB40BB /* Debug */,
+				7CE09B682AC16F4800EB40BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CE09B502AC16F4700EB40BB /* Project object */;
+}
