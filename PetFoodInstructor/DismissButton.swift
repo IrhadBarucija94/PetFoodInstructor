@@ -19,7 +19,7 @@ struct DismissButton: View {
                 isShowingDetailView = false
             } label: {
                 Image(systemName: "xmark")
-                    .foregroundColor(Color(.label))
+                    .foregroundColor(Color(.white))
                     .imageScale(.large)
                     .frame(width: 44, height: 44)
             }
@@ -30,4 +30,5 @@ struct DismissButton: View {
 
 #Preview {
     DismissButton(isShowingDetailView: .constant(false))
+        .preferredColorScheme(.dark)
 }

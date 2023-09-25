@@ -21,8 +21,6 @@ struct HomeGridView: View {
         
             NavigationView {
                 ZStack {
-                    Color.theme.background
-                        .ignoresSafeArea()
                     ScrollView {
                         LazyVGrid(columns: viewModel.columns) {
                             ForEach(MockData.data) { data in
@@ -34,12 +32,18 @@ struct HomeGridView: View {
                         }
                     }
                 }
+                .background(
+                Image("skylar")
+                    .resizable()
+                    .ignoresSafeArea()
+                    .aspectRatio(contentMode: .fill)
+                    .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+                )
                 .navigationTitle("Dog Brands 🐕")
                 .sheet(isPresented: $viewModel.isShowingDetailView) {
                     BrandDetailView(data: viewModel.selectedData!, isShowingDetailView: $viewModel.isShowingDetailView)
                 }
             }
-        
     }
 }
 

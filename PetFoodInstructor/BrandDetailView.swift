@@ -15,8 +15,6 @@ struct BrandDetailView: View {
     
     var body: some View {
         ZStack {
-            Color.theme.background
-                .ignoresSafeArea()
             ScrollView {
                 VStack {
                     
@@ -27,7 +25,7 @@ struct BrandDetailView: View {
                     HomeTitleView(data: data)
                     
                     Text(data.description)
-                        .font(.custom("Montserrat-bold", size: 16))
+                        .font(.body)
                         .foregroundColor(.white)
                         .padding()
                     
@@ -38,12 +36,22 @@ struct BrandDetailView: View {
                     } label: {
                         AFButton(title: "Learn More")
                     }
+                
+                    Spacer()
+                    
                 }
                 .fullScreenCover(isPresented: $isShowingSafariView, content: {
                     SafariView(url: URL(string: data.urlString) ?? URL(string: "www.google.com")!)
                 })
             }
         }
+        .background(
+        Image("skylar")
+            .resizable()
+            .ignoresSafeArea()
+            .aspectRatio(contentMode: .fill)
+            .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height)
+        )
     }
 }
 
