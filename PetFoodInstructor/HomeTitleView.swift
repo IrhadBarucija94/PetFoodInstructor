@@ -18,7 +18,7 @@ struct HomeTitleView: View {
                     .frame(width: 90, height: 90)
                     .cornerRadius(10)
                 Text(data.name)
-                    .font(.custom("Montserrat-Bold", size: 22))
+                    .font(.custom("Montserrat-Bold", size: 18))
                     .fontWeight(.light)
                     .foregroundColor(Color(.white))
                     .scaledToFit()
